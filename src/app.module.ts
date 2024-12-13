@@ -29,8 +29,7 @@ import { ItemsModule } from './items/items.module';
 @Module({
   imports: [
     MongooseModule.forRoot('mongodb+srv://brendan:Brendan1@cluster0.rb7di.mongodb.net/nest-crud', {
-     //useNewUrlParser: true,
-     //useUnifiedTopology: true,
+    
     }),
     ItemsModule,
   ],
